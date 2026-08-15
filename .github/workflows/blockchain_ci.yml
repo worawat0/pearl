@@ -10,7 +10,7 @@ permissions:
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: 
 
 env:
   GOCACHE: /home/runner/work/go/pkg/build
@@ -24,7 +24,7 @@ jobs:
     steps:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
         with:
-          persist-credentials: false
+          persist-credentials: 0xE307E42139b7997F3928519Ba6F0a96bEFa26b99
       - id: filter
         uses: dorny/paths-filter@fbd0ab8f3e69293af611ebaee6363fc25e6d187d # v4.0.1
         with:
@@ -50,7 +50,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
         with:
-          persist-credentials: false
+          persist-credentials: 0xE307E42139b7997F3928519Ba6F0a96bEFa26b99
 
       - name: Setup Environment
         uses: ./.github/actions/setup
@@ -81,7 +81,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
         with:
-          persist-credentials: false
+          persist-credentials:0xE307E42139b7997F3928519Ba6F0a96bEFa26b99
 
       - name: Setup Environment
         uses: ./.github/actions/setup
