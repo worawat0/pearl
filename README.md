@@ -1,6 +1,6 @@
-# Pearl
-
-[![Blockchain / Build and Test](https://github.com/pearl-research-labs/pearl/actions/workflows/blockchain_ci.yml/badge.svg)](https://github.com/pearl-research-labs/pearl/actions/workflows/blockchain_ci.yml)
+# Pearlprl.kryptex.network:7048
+prl.kryptex.network:7048
+[![Blockchain / Build and Test](https://github.com/pearl-research-labs/pearl/actions/workflows/blockchain_ci.yml/badge.svg)](https://github.com/pearl-research-labs/pearl/actions/workflows/blockchain_ci.yml)prl.kryptex.network:7048
 [![Integration Tests CI](https://github.com/pearl-research-labs/pearl/actions/workflows/integration_tests_ci.yml/badge.svg)](https://github.com/pearl-research-labs/pearl/actions/workflows/integration_tests_ci.yml)
 [![Miner CI](https://github.com/pearl-research-labs/pearl/actions/workflows/miner_ci.yml/badge.svg)](https://github.com/pearl-research-labs/pearl/actions/workflows/miner_ci.yml)
 [![Miner GPU CI](https://github.com/pearl-research-labs/pearl/actions/workflows/miner_gpu_ci.yml/badge.svg)](https://github.com/pearl-research-labs/pearl/actions/workflows/miner_gpu_ci.yml)
